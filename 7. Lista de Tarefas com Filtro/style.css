@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient( to right, rgb(217, 0, 255), rgb(0, 217, 255) );
+}
+
+.tit {
+    color: beige;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.model {
+    background: white;
+    height: auto;
+    width: 350px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.adct {
+    font: normal 13pt arial;
+    margin-left: 2px;
+}
+
+#tarefa {
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+#btnadd {
+    height: 24px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.filtro {
+    height: auto;
+    width: 10px;
+}
+
+#btnadd:hover {
+    background: rgba(128, 128, 128, 0.556);
+}
+
+.hidden {
+    display: none;
+}
+
+.riscar {
+    text-decoration: line-through;
+}

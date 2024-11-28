@@ -1,0 +1,60 @@
+body {
+    background: aqua;
+}
+
+.title {
+    font: bold 25pt Arial;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.model {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    height: auto;
+    width: 250px;
+    margin: auto;
+}
+
+.menu-item {
+    margin-top: 7px;
+    display: inline-block; /* Garante que o link tenha formato de botão */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #d9dce0; /* Cor de fundo */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid gray; /* Borda com leve destaque */
+    font-size: 16px; /* Tamanho do texto */
+    transition: background-color 0.2s ease; /* Animação suave */
+}
+
+img {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.menu-item:hover {
+    background: gray;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+}
+
+#inputaddnom {
+    margin-top: 5px;
+    width: 70px;
+}
+
+#inputaddnot {
+    margin-top: 5px;
+    width: 70px;
+}
+
+#lista {
+    margin-top: 5px;
+}

@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient( to right, rgb(0, 166, 255), rgba(49, 255, 70, 0.452));
+}
+
+.tit {
+    color: white;
+    font: normal 25pt arial;
+    text-align: center;
+}
+
+.model {
+    background: white;
+    height: auto;
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    margin: auto;
+}

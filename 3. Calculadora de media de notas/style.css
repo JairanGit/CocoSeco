@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(90deg, rgba(0, 0, 255, 0.737), lightblue);
+}
+
+.tit {
+    color: white;
+    text-align: center;
+    font: normal 30pt arial;
+    margin-top: 120px;
+}
+
+.model {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}

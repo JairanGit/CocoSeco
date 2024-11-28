@@ -1,0 +1,21 @@
+body {
+    background: blue;
+}
+
+.tit {
+    font: normal 20pt arial;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 22px;
+}
+
+.model {
+    background: white;
+    border-radius: 8px;
+    margin-right: 250px;
+    margin-left: 500px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 500px;
+}

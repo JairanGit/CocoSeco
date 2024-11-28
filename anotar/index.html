@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coco Seco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background: rgba(1, 144, 1, 0.764);">
+
+        <!-- TÍTULO -->
+    <h1 style="color: white; text-align: center; margin-top: 120px; font: normal 30pt arial;">
+        Coco Seco
+    </h1>
+
+        <!-- CENTAVOS -->
+    <section class="model" >
+        <div id="centdiv" style="text-align: center; font: normal 13pt arial; background: rgba(1, 248, 1, 0.54); padding: 5px; border-radius: 10px; width: 400px; margin-left: 90px;">
+            Você recebe a quantos centavos ? <br>(entre 1 e 99):
+            <input style="width: 70px; border-radius: 5px; border: 1px solid black;" type="number" id="centvalor">
+            <button onclick="conf()" style="border-radius: 5px; border: 1px solid black;">Confirmar</button>
+            <p id="p"></p>
+        </div>
+
+        <!-- QUINZENA 1 -->
+        <div>
+<pre style="font: normal 11pt arial; text-align: center;">
+                              <div><strong>Primeira quinzena</strong></div>
+
+ Segunda:    Terça:      Quarta:      Quinta:       Sexta:
+</pre>
+        </div>
+        <div style="text-align: center;">
+            <input type="number" style="width: 60px;" id="seg">
+            <input type="number" style="width: 60px;" id="ter">
+            <input type="number" style="width: 60px;" id="qua">
+            <input type="number" style="width: 60px;" id="qui">
+            <input type="number" style="width: 60px;" id="sex">
+        </div>
+        <div>
+
+        <!-- QUINZENA 2 -->
+            <div>
+<pre style="font: normal 11pt arial; text-align: center;">
+                              <div><strong>Segunda quinzena</strong></div>
+
+ Segunda:    Terça:      Quarta:      Quinta:       Sexta:
+</pre>
+        </div>
+        <div style="text-align: center;">
+            <input type="number" style="width: 60px;" id="seg2">
+            <input type="number" style="width: 60px;" id="ter2">
+            <input type="number" style="width: 60px;" id="qua2">
+            <input type="number" style="width: 60px;" id="qui2">
+            <input type="number" style="width: 60px;" id="sex2">
+            <button style="border-radius: 5px; border: 1px solid black;" onclick="ok()">OK</button>
+        </div>
+
+        <!-- RESULTADO -->
+        <p>
+            <div id="res">
+            </div>
+            <div id="res1">
+            </div>
+        </p>
+
+    </section>
+    
+</body>
+
+<script src="script.js"></script>
+</html>

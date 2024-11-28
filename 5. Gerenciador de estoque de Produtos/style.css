@@ -1,0 +1,63 @@
+.title {
+    font: normal 25pt arial;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.model {
+    background: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    width: 350px;
+    margin-top: 20px;
+}
+
+body {
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.523), rgba(255, 0, 0, 0.408))
+}
+
+.btn {
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.lista {
+    margin-top: 10px;
+}
+
+.entrada {
+    border-radius: 8px;
+    border: 1px solid gray;
+    width: 60px;
+    padding: 2px;
+    text-align: center;
+}
+
+.entrada-btn {
+    border-radius: 8px;
+    padding: 2px;
+    width: 50px;
+    border: 1px solid gray;
+}
+
+.remover {
+    border-radius: 8px;
+    border: 1px solid gray;
+    width: 60px;
+    padding: 2px;
+    text-align: center;
+}
+
+.remover-btn {
+    border-radius: 8px;
+    padding: 2px;
+    width: 70px;
+    border: 1px solid gray;
+}
+
+.sair {
+    border-radius: 8px;
+    border: 1px solid gray;
+}

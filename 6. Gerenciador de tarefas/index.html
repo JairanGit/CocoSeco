@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div><h1 class="tit">TAREFAS</h1></div>
+
+<body>
+
+    <section class="model">
+        <p id="contador">Itens da lista: 0</p>
+        <div>
+            <input style="width: 150px; margin-left: 45px;" id="input" type="text">            
+        </div>
+        <div>
+            <button style="margin-left: 95px; margin-top: 10px;" onclick="clean()">Limpar</button>
+        </div>
+
+        <ul id="lista" style="margin-left: -20px;" type="disc">
+        </ul>
+
+    </section>
+    
+</body>
+
+<script src="index.js"></script>
+</html>
